@@ -1,0 +1,13 @@
+canvas{
+border-style:groove;
+background-color: aliceblue;
+animation-name: filterAnimation;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+@keyframes filterAnimation {
+from{box-shadow: 10px 20px 20px mediumslateblue }
+to{box-shadow: 10px 20px 20px aquamarine}
+to{box-shadow: 10px 20px 20px lightsalmon}
+to{box-shadow: 10px 20px 20px lightcoral}
+}
